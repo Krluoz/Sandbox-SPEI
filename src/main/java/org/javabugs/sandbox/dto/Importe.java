@@ -2,7 +2,7 @@ package org.javabugs.sandbox.dto;
 
 import java.math.BigDecimal;
 
-public class ImporteDto {
+public class Importe {
     private BigDecimal valor;
     private String divisa;
 

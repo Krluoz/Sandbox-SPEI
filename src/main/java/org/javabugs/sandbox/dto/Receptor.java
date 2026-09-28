@@ -1,10 +1,9 @@
 package org.javabugs.sandbox.dto;
 
-public class EmisorT2TDto {
+public class Receptor {
     private String institucion;
     private String cuenta;
     private String nombre;
-    private String identificacionFiscal;
 
     public String getInstitucion() {
         return institucion;
@@ -28,13 +27,5 @@ public class EmisorT2TDto {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
-    }
-
-    public String getIdentificacionFiscal() {
-        return identificacionFiscal;
-    }
-
-    public void setIdentificacionFiscal(String identificacionFiscal) {
-        this.identificacionFiscal = identificacionFiscal;
     }
 }

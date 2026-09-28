@@ -1,6 +1,6 @@
 package org.javabugs.sandbox.dto;
 
-public class EmisorVNTDto {
+public class EmisorVNT {
     private String nombre;
     private String identificacionFiscal;
     private String sucursal;

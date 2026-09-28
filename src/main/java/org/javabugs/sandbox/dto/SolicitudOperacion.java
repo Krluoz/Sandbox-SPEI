@@ -4,9 +4,9 @@ public class SolicitudOperacion {
 
     private String tipoOperacion;
     private String referenciaSeguimiento;
-    private ImporteDto importe;
+    private Importe importe;
     private Object emisor;
-    private ReceptorDto receptor;
+    private Receptor receptor;
     private String concepto;
     private Integer folioNumero;
 
@@ -26,11 +26,11 @@ public class SolicitudOperacion {
         this.referenciaSeguimiento = referenciaSeguimiento;
     }
 
-    public ImporteDto getImporte() {
+    public Importe getImporte() {
         return importe;
     }
 
-    public void setImporte(ImporteDto importe) {
+    public void setImporte(Importe importe) {
         this.importe = importe;
     }
 
@@ -42,11 +42,11 @@ public class SolicitudOperacion {
         this.emisor = emisor;
     }
 
-    public ReceptorDto getReceptor() {
+    public Receptor getReceptor() {
         return receptor;
     }
 
-    public void setReceptor(ReceptorDto receptor) {
+    public void setReceptor(Receptor receptor) {
         this.receptor = receptor;
     }
 
